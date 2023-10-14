@@ -22,10 +22,6 @@
 
     <x-section-content>
         <x-splade-table :for="$standardBatchSubjects">
-            <x-splade-cell standard as="$standardBatchSubject">
-                {{$standardBatchSubject}}
-            </x-splade-cell>
-
             <x-splade-cell batch as="$standardBatchSubject">
                 {{$standardBatchSubject->batch->name}}
 {{--                <ul>--}}
