@@ -21,6 +21,20 @@
     {{-- Content --}}
 
     <x-section-content>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
+        <h1>hello world</h1>
         <x-splade-table :for="$standardBatchSubjects">
             <x-splade-cell batch as="$standardBatchSubject">
                 {{$standardBatchSubject->batch->name}}
